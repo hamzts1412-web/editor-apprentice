@@ -1,0 +1,8 @@
+{
+  "name": "editor-apprentice",
+  "version": "1.0.0",
+  "description": "Teach Claude how you edit. Claude asks how you work with each client, splits your workflow into stages, helps on the stages you hand over (one at a time, under your corrections), learns from your final cut, and writes it all into an editor skill plus one skill per client. Any editing or motion app: Premiere Pro, After Effects, DaVinci Resolve, Final Cut Pro, CapCut and more — through project files, scripting, MCP servers or computer use, in any language.",
+  "author": {"name": "Hamza Sayed"},
+  "license": "MIT",
+  "keywords": ["video editing", "editor", "premiere pro", "after effects", "davinci resolve", "final cut pro", "capcut", "workflow", "skills"]
+}

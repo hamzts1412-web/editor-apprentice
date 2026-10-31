@@ -1,0 +1,12 @@
+{
+  "name": "editor-apprentice",
+  "description": "Claude as a video editor's apprentice: it learns your workflow and your clients, then helps stage by stage.",
+  "owner": {"name": "Hamza Sayed"},
+  "plugins": [
+    {
+      "name": "editor-apprentice",
+      "source": "./plugins/editor-apprentice",
+      "description": "Teach Claude how you edit — per client — and get an editor skill plus one skill per client."
+    }
+  ]
+}

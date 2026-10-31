@@ -1,0 +1,51 @@
+{
+  "client": "<name>",
+  "version": 1,
+  "updated": "<YYYY-MM-DD>",
+  "language": "<ISO code, e.g. en, ar, es>",
+  "fps": 25, "width": 1920, "height": 1080,
+  "terms": {"<Spelling as wanted>": "<what it is / how it's mis-heard>"},
+  "identity": {
+    "colors": {"bg": "#000000", "text": "#FFFFFF", "accent": "#000000"},
+    "fonts": {"title": "<font name>", "body": "<font name>"},
+    "references": ["<brand book / past scenes, files inside this skill>"]
+  },
+  "tracks": {"dialog_v": "V1", "dialog_a": "A1", "zoom": "V3"},
+  "cut": {
+    "lead_frames": 1, "tail_frames": 2,
+    "intro_lead_frames": 1, "intro_tail_frames": 1,
+    "intro_marker": null,
+    "breaths": "mid_speech",
+    "merge_gap": 0,
+    "retake_window": 180,
+    "keep_last_take": true,
+    "meta_phrases": [],
+    "note_words": [], "note_fill": [],
+    "fillers": [], "keep_words": [], "hallucinations": [],
+    "quiet_db": 9
+  },
+  "zoom": {
+    "style": "none", "method": "keyframes",
+    "layer": 6.0, "scale_in": 115, "ease_in": 0.6, "pos_y": 0.0,
+    "punch_scale": 115, "punch_threshold": 2.5,
+    "gap_min": 1.5, "gap_max": 8.0, "obvious": 9.0, "restart": 15.0, "min_len": 6.0,
+    "start_after": 0
+  },
+  "multicam": {
+    "min_shot": 2.0, "switch_delay": 0.4, "lead": 0.15, "margin_db": 6,
+    "max_shot": 14.0, "cutaway": "wide", "cutaway_len": 2.5, "overlap": "wide"
+  },
+  "graphics": {
+    "lead": 0.3, "max": 14,
+    "kinds": {
+      "<kind>": {"dur": 4.0, "lead": 0.3, "track": "V5", "file": "<template file>", "levels_used": 1,
+                 "parts": [], "sfx": [{"file": "<sfx path>", "s0": 0, "dur": 0.5, "offset": 0, "gain_db": -20, "track": "A3"}]}
+    }
+  },
+  "motion": {
+    "app": "<After Effects / …>",
+    "project": "<where the client's motion projects live>",
+    "scene_lengths_s": {},
+    "editor_finish": "<what the editor adds after Claude's build (glow, timing…)>"
+  }
+}

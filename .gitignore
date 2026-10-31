@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+_auto/
+*.islands.json
+.DS_Store
